@@ -1,0 +1,52 @@
+.signup-tab-inner {
+  text-align: right;
+}
+.signup-tab-inner button {
+  margin-top: 16px;
+}
+.signup-tab-inner_link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  align-items: center;
+  text-align: center;
+  color: #212121;
+  margin-top: 20px;
+}
+.signup-tab-inner_link a {
+  color: #EF400F;
+  cursor: pointer;
+}
+.signup-tab-inner .desc {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.200000003px;
+  color: #1a96f0;
+  padding-bottom: 5px;
+}
+.signup-tab-inner .desc span {
+  color: #ea1e61;
+}
+.signup-tab-inner .code input {
+  padding: 0 15px !important;
+}
+.signup-tab-inner .code .resend {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.200000003px;
+  color: #ef400f;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.signup-tab-inner .code .resend:hover {
+  cursor: pointer;
+}
+.signup-tab-inner .error-border {
+  border: 0.6px solid red;
+}/*# sourceMappingURL=signup-tab-inner.css.map */

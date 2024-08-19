@@ -1,0 +1,293 @@
+.login__heading {
+  text-align: left;
+  width: 340px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #0e0d5d;
+  margin-bottom: 38px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  &_resend{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #EF400F;
+    border: none;
+    width: 60px;
+    height: 25px;
+    background: transparent;
+    position: absolute;
+    top: 16px;
+    left: 300px;
+    cursor: pointer;
+  }
+  &__pasport{
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #1A96F0; 
+   text-align: left;
+  }
+  &__heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #0e0d5d;
+    margin-top: 96px;
+    margin-bottom: 38px;
+    text-wrap: wrap;
+  }
+  &__input {
+    border: 0.6px solid #eee;
+    box-shadow: none;
+    width: 100%;
+    transition: 0.3s all;
+    height: 60px;
+    padding: 0;
+    flex-grow: 0;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 0 52px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    &::placeholder {
+      color: #9e9e9e;
+    }
+    &:focus {
+      background-color: #fff;
+      border: 1px solid #ef400f;
+    }
+    &.error {
+      border: 1px solid red;
+    }
+  }
+  &__input-offer {
+    border: 0.6px solid #eee;
+    box-shadow: none;
+    width: 100%;
+    transition: 0.3s all;
+    height: 60px;
+    padding: 0;
+    flex-grow: 0;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 0 52px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    &::placeholder {
+      color: #9e9e9e;
+    }
+    &:focus {
+      background-color: #fff;
+      border: 1px solid #ef400f;
+    }
+    &.error {
+      border: 1px solid red;
+    }
+    
+  }
+  &__input-offer-code {
+    border: 0.6px solid #eee;
+    box-shadow: none;
+    width: 100%;
+    transition: 0.3s all;
+    height: 60px;
+    padding: 0;
+    flex-grow: 0;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 0 52px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    position: relative;
+    &::placeholder {
+      color: #9e9e9e;
+    }
+    &:focus {
+      background-color: #fff;
+      border: 1px solid #ef400f;
+    }
+    &.error {
+      border: 1px solid red;
+    }
+    
+  }
+  &__input-offer-in-signing {
+    border: 0.6px solid #eee;
+    box-shadow: none;
+    width: 100%;
+    transition: 0.3s all;
+    height: 60px;
+    padding: 0;
+    flex-grow: 0;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 0 52px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    position: relative;
+    &::placeholder {
+      color: #9e9e9e;
+    }
+    &:focus {
+      background-color: #fff;
+      border: 1px solid #ef400f;
+    }
+    &.error {
+      border: 1px solid red;
+    }
+    
+  }
+  .show-pass img {
+    width: 18px;
+    height: 18px;
+  }
+  &__btn {
+    padding: 18px 16px;
+    background: #ef400f;
+    box-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    cursor: pointer;
+    &[disabled] {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+  &__btn_in_signing{
+    padding: 12px 24px 16px 24px;
+    width: 404px;
+    height: 56px;
+    background: #ef400f;
+    box-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    cursor: pointer;
+    &[disabled] {
+      cursor: not-allowed;
+      background-color: #BDBDBD;
+      opacity: 0.5;
+    }
+  }
+  &__btn-offer {
+    padding: 18px 16px;
+    background: #ef400f;
+    box-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: 4px 8px 24px rgba(247, 98, 51, 0.25);
+    cursor: pointer;
+    &[disabled] {
+      cursor: not-allowed;
+      background-color: #BDBDBD;
+      opacity: 0.9;
+      
+    }
+  }
+  &__check {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    label {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22.4px;
+      letter-spacing: 0.2px;
+      color: #212121;
+      margin-top: 4px;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+    input[type=checkbox] {
+      appearance: none;
+      width: 23.33px;
+      height: 23.33px;
+      border-radius: 5px;
+      background-color: #e0e0e0;
+      border: 1px solid #eee;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      margin: 0;
+    }
+  
+    input[type=checkbox]:checked {
+      background-color: #EF400F;
+      border: none;
+    }
+
+    input[type=checkbox]::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 4px;
+      border: solid white;
+      border-width: 0 0 2px 2px;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      // opacity: 0; /* Скрываем галочку в исходном состоянии */
+      border-radius: 1px;
+    }
+  
+    input[type=checkbox]:checked::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 4px;
+      border: solid white;
+      border-width: 0 0 2px 2px;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      border-radius: 2px;
+      // opacity: 1;
+      // background: #9e9e9e;
+    }
+  }
+  
+}
+

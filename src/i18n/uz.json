@@ -1,0 +1,419 @@
+{
+  "lang": {
+    "change": "Tilni tanlang:"
+  },
+  "login": {
+    "heading": {
+      "welcome": "Spacega xush kelibsiz",
+      "offerta": "Offertani imzolashi"
+    },
+    "tabs": {
+      "parent": "Ota-onaman",
+      "student": "O'quvchiman",
+      "offerta": "Offerta imzolash",
+      "login": "Tizimga kirish",
+      "no-login": "Akkauntga ega emasmisiz?",
+      "sign-up": "Kirish",
+      "pasport": "Passportda ko’rsatilganidek",
+      "num-info": "SMS orqali kelgan kodni kiriting",
+      "sign-offerta": "Tizimga kirish uchun offertani imzolang"
+
+    },
+    "button-id": "Tasdiqlash",
+    "button-send": "Olg'a!",
+    "signing": "Imzolash",
+    "verify": "Telegram bo'tdagi tekshirish ko'dini kiriting!",
+    "resend": "Kodni qayta yuborish",
+    "remember": "Meni eslab qolish",
+    "error": "O'quvchi telegram botga ulanmagan",
+    "inactive": "Akkaunt aktiv qilinmagan. Aktiv qilish uchun administratsiyaga murojaat qiling",
+    "unknown": "Bunday akkaunt yo'q",
+    "blocked": "Telegram bot bloklangan",
+    "qrcode": "QR code orqali kirish",
+    "enterwithid": "Moodme ID orqali kirish",
+    "password": "Parol",
+    "video": "Space Mars IT platformasidan qanday foydalaniladi?",
+    "video-btn": "Qanday foydalaniladi?",
+    "payment-block": "Sizning akkauntingiz qarzdorlik tufayli blok qilingan: ",
+    "full_name": "To'liq Ism sharifingiz",
+    "phone": "Telefon raqamingiz",
+    "verification-code": "Tasdiqlovchi kod",
+    "no-phone": "Telefon raqamingizni kiriting",
+    "no-name": "Ismingizni kiriting",
+    "wrong-phone": "Telefon raqamini to'g'ri formatda kiriting",
+    "wrong-code": "To'g'ri kod kiriting",
+    "offerta-check": "Offerta bilan tanishdim va qabul qildim",
+    "btn-send": "Jo'natish",
+    "offerta-already-created": "Offerta imzolanib bo'lgan",
+    "offerta-checked": "Offerta muvaffaqiyatli imzolandi",
+    "check-offerta": "Offerta bilan tanishish",
+    "phone-checked": "Telefon raqamimni qayta ishlashga roziman",
+    "code-resent": "Kod qayta yuborildi"
+  },
+  "signup": {
+    "heading": "Spacega xush kelibsiz",
+    "first_name": "Ismingiz",
+    "last_name": "Familiyangiz",
+    "phone": "Telefon raqamingiz",
+    "code": "Tasdiqlovchi kodni kiriting",
+    "enter_code": "SMS orqali kelgan kodni kiriting",
+    "next": "Keyingisi",
+    "confirm": "Tasdiqlash",
+    "registered": "Ro'yxatdan o'tish muvaffaqiyatli yakunlandi",
+    "login": "Tizimga kirish",
+    "to-signin": "Akkauntingiz bormi?",
+    "resent": "Kod qayta yuborildi",
+    "already-created": "Bu raqam bilan hisob yaratilgan"
+  },
+  "header": {
+    "shop": "Mars shop",
+    "backward": "Ortga",
+    "logout": "Platformadan chiqish",
+    "change-password": "Parolni o'zgartirish",
+    "settings": "Sozlamalar",
+    "header-create-post": {
+      "post-btn":"Post yaratish",
+      "post-inp": "Postingizni bu yerga yozing"
+    },
+    "modal": {
+      "cancel_btn": "Bekor qilish",
+      "confirm_btn": "Tasdiqlash",
+      "change-phone": "Telefon raqamni o'zgartirish",
+      "no-phone": "Telefon raqam kiritilmagan",
+      "change-phone-success": "Telefon raqam muvaffaqiyatli qo'shildi!",
+      "change-phone-failed": "Telefon raqam qo'shishda xatolik yuz berdi.",
+      "phone-number": "Telefon raqami",
+      "new-number": "Raqam qo'shish",
+      "invalid-number": "Noto'g'ri format, iltimos, telefon raqamini to'g'ri kiriting."
+    }
+  },
+  "ligas": {
+    "0": "Geymerlar",
+    "1": "Xakerlar",
+    "2": "Koderlar",
+    "gamers": "Geymerlar",
+    "hackers": "Xakerlar",
+    "coders": "Koderlar"
+  },
+  "main": {
+    "profile": "Profil",
+    "feed": "Feed",
+    "friends": "Do'stlar",
+    "no-friends": "Guruh yo'q",
+    "posts": "Postlar",
+    "no_posts": "Postlar yo’q",
+    "study": "Ta'lim",
+    "coins": "Coins balansingiz",
+    "attendance": "Davomat",
+    "achievment": "Yutuqlar",
+    "levels": "Darajalar",
+    "levels-up": "Darajalar o'sishi",
+
+    "tasks": {
+      "header": "Vazifa",
+      "marked": "Baholandi",
+      "opened": "Topshirish kerak",
+      "uploaded": "Tekshirilmoqda",
+      "empty": "Hozirgi paytda topshiriqlar yo'q",
+      "denied": "Vazifa qabul qilinmadi",
+      "title": "Vazifa haqida",
+      "requirements": "Talablar",
+      "requirements_for_task": "Vazifani bajarish uchun talablar",
+      "theory": "Nazariya",
+      "materials": "Materiallar",
+      "needed_materials": "Vazifani bajarish uchun kerakli materiallar",
+      "no_materials": "Vazifa uchun kerakli materiallar mavjud emas",
+      "download_btn": "Yuklab olish",
+      "tasks": "Vazifa",
+      "submit_the_task": "Vazifani topshiring",
+      "submitted-task": "Topshiriligan vazifa",
+      "to_load_the_file": "Faylni yuklash uchun",
+      "here": "bu yerga",
+      "press": "bosing",
+      "assignment": "Topshirilgan vazifa",
+      "retake": "Qayta topshirish",
+      "send-task": "Vazifani yuborish",
+      "assigned_not_accepted": "Topshirilgan vazifa qabul qilinmadi",
+      "assigned_accepted": "Vazifa qabul qilindi",
+      "no-requirements": "Vazifa uchun talablar mavjud emas",
+      "no-information": "Vazifa haqida ma'lumot mavjud emas",
+      "title-about-the-task": "Vazifa haqida sarlavha",
+      "no-theory": "Nazariya mavjud emas"
+
+    },
+    "payment": {
+      "title": "To'lov xolati",
+      "status-succes": "To'langan",
+      "status-err": "To'lanmagan",
+      "message-succes": "Kursga to’lov amalga oshirilgan",
+      "message-err": "Iltimos kurs to’lovini amalga oshiring",
+      "pay": "To'lov qilish"
+    },
+    "module": "oy",
+    "news": "Yangiliklar",
+    "rating": {
+      "heading": "Reyting",
+      "tabs": {
+        "all": "Hammani orasida",
+        "group": "Guruh ichida",
+        "clans": "Klanlar ichida"
+      },
+      "sort": {
+        "daily": "Kunlik reyting",
+        "weekly": "Haftalik reyting",
+        "monthly": "Oylik reyting"
+      },
+      "no-data": "Vazifalarni bajarib va darsda aktiv bo'lib coin ishlang va topga chiqing!",
+      "total": {
+        "daily": "coins kun davomida",
+        "weekly": "coins hafta davomida",
+        "monthly": "coins oy davomida"
+      },
+      "text": {
+        "daily": "Eng ko’p coin to’plagan o’quvchilarimizning bir kunlik reytingi",
+        "weekly": "Eng ko’p coin to’plagan o’quvchilarimizning bir haftalik reytingi",
+        "monthly": "Eng ko’p coin to’plagan o’quvchilarimizning bir oylik reytingi"
+      }
+    },
+    "booking": {
+      "heading": "Yordamchi o’qituvchi",
+      "title": "Qo’shimcha darsga olish uchun ro’yxatdan o’ting",
+      "estimate_title": "Qo’shimcha darsni baholang",
+      "btn": {
+        "register": "Yozilish",
+        "edit": "O'zgartirish",
+        "estimate": "Baholash",
+        "estimated": "Baholandi",
+        "cancel": "Bekor qilish",
+        "canceled": "Bekor qilindi"
+      },
+      "modal": {
+        "tutor": "O'qituvchi tanlang",
+        "date": "Sana tanlang",
+        "time": "Vaqt tanlang",
+        "topic": "Dars mavzusini yozib qo'ying",
+        "topic_heading": "Dars mavzusi",
+        "freemium_header": "Limit tugadi",
+        "freemium_desc": "Siz 3 marotaba yordamchi o'qituvchi xizmatidan foydalanib bo'ldingiz. Yordamchi o'qituvchi xizmatidan cheksiz foydalanish uchun kurslarmizga yoziling",
+        "btn": "Tushunarli"
+      }
+    },
+    "news-frame": {
+      "heading": "Yangiliklar",
+      "title": "O’quv markazimiz haqida so’ngi yangiliklardan habardor bo’ling"
+    },
+    "check-certificate": {
+      "heading": "Sertifikatlar",
+      "title": "Mars IT School tomonidan taqdim etilgan sertifikatlar",
+      "modal": {
+        "heading": "Sertifikatlar",
+        "date": "Berilgan sana",
+        "download": "Yuklab olish",
+        "no-certificate": "Sizda hozirgi vaqtda sertifikatlar mavjud emas"
+      }
+    },
+    "share-link": {
+      "heading": "Do’stlar bilan ulashing",
+      "title": "O'rtoqlaringiz bilan ulashing va coin oling",
+      "modal": {
+        "share": "Referral link",
+        "warning": "Linkdan nusxa olingandan so’ng 8 soat ichida referral linkdan foydalanilmasa coin berilmaydi",
+        "ger-link": "Yaratilgan havola shu yerda chiqadi",
+        "copy-link": "Havolani nusxalash",
+        "generate": "Yaratish",
+        "copied": "Nusxalandi",
+        "already-created": "Referral link yaratilgan"
+      }
+    }
+  },
+  "tasks": {
+    "block": {
+      "opened": "Topshirish kerak",
+      "denied": "Qayta topshirish kerak",
+      "marked": "Baholandi",
+      "uploaded": "Tekshirilmoqda",
+      "subject": "Mavzu:"
+    },
+    "mini-blocks": {
+      "files-title": "Dars bo'yicha fayllar",
+      "files-empty": "Fayllar yo'q",
+      "uploaded-title": "Yuklanilgan vazifa",
+      "uploaded-date": "Yuklanilgan sana",
+      "uploaded-empty": "Vazifa yuklanilmagan",
+      "mark-title": "Dars baholanishi",
+      "mark-null": "Vazifa baholanmadi",
+      "req-empty": "Requirements mavjud emas"
+    },
+    "about_heading": "Vazifa haqida",
+    "req_heading": "Vazifa uchun talablar",
+    "upload_btn": "Vazifani yuklash",
+    "test-btn": "Test o'tish"
+  },
+  "modal": {
+    "upload": {
+      "heading": "Vazifani yuklang",
+      "upload_btn": "Yuklash",
+      "cancel_btn": "Bekor qilish",
+      "link": "Havolani qo'ying",
+      "comment": "Kommentariy qoldirin"
+    },
+
+    "file-check": {
+      "heading": "Faylni tekshirish",
+      "file": "fayl",
+      "upload_btn": "Tasdiqlash va yuborish",
+      "cancel_btn": "Bekor qilish"
+    },
+    "loading": {
+      "heading": "Vazifa yuborilmoqda",
+      "title": "Kutib turing, vazifangiz yuklanmoqda",
+      "cancel_btn": "Bekor qilish"
+    },
+    "uploaded": {
+      "heading": "Yuborildi",
+      "title": "Sizning vazifangiz ko'rib chiqish uchun yuborildi",
+      "btn": "Tushunarli"
+    },
+    "fail": {
+      "heading": "Yuborilmadi",
+      "title": "Sizning vazifangiz yuborilmadi. Iltimos xatolik bo'lgan bo'lsa o'qituvchiga murojaat qiling",
+      "btn": "Tushunarli"
+    },
+    "heading": {
+      "file": "Fayl",
+      "link": "Havola",
+      "comment": "Kommentariy"
+    },
+    "hasnt_exam":{
+      "there_is_no_exam": "Imtihon qo’shilmagan"
+    }
+  },
+  "newsPage": {
+    "heading": "Sarlavha",
+    "some-photo": "Tadbirdan foto lavhalar"
+  },
+  "attendance": {
+    "heading": "Davomat",
+    "attended": "Bor edi",
+    "absent": "Yo'q edi",
+    "upcoming": "Kelayotgan darslar"
+  },
+  "footer": {
+    "study": "Ta'lim",
+    "attendance": "Davomat",
+    "profile": "Profil",
+    "rating": "Reyting",
+    "shop": "Mars shop",
+    "home": "Asosiy"
+  },
+  "space-shop": {
+    "purchase-code": "Xaridingiz kodi",
+    "shop": "Magazin",
+    "purchase-history": "Xaridlar tarixi",
+    "remainder": "dona mavjud",
+    "product-name": "Tovar nomi",
+    "product-price": "Narxi",
+    "product-price-disc": "Chegirma narxi",
+    "no-product-found": "Mahsulot qolmagan",
+    "preorder": "Ushbu tovarga oldindan buyurtma berish mumkin",
+    "modal": {
+      "done-heading": "Tabriklaymiz",
+      "done-title": "Sizning xaridingiz muvaffaqiyatli amalga oshirildi, uni olib ketish uchun filialingizdagi Administratsiya punktiga murojaat qiling va ayting:",
+      "fail-heading": "Sizda Coins yetarlik emas",
+      "fail-title": "Hozirgi vaqtda, sizning mablag'ingiz yetarlik emas. O'qishda davom etiring va tez orada harid qilish uchun qayting",
+      "given-title": "Sizning xaridingiz shu raqam ostida amalga oshirildi",
+      "ready-heading": "Xaridingizni olishingiz munkun",
+      "btn": "Tushunarli",
+      "confirm-purchase": "Xaridni tasdiqlaysizmi?",
+      "purchase": "Xa, sotib olaman",
+      "cancel": "Bekor qilish",
+      "no-product": "Tovar hozirda mavjud emas",
+      "no-balance-heading": "Balansingizda mablag'ingiz yetarlik emas",
+      "no-balance-title": "Hozirgi vaqtda, sizning mablag'ingiz yetarlik emas. Harid qilish uchun Administratsiya punktiga murojaat qiling",
+      "freemium-shop": "Sinov darslari yakunlanganidan so'ng Space shopdan foydalanishingiz mumkin",
+      "no-bot-heading": "Ro'yxatdan o'ting",
+      "no-bot-title": "Maxsulotni olish uchun avval Telegram botdan ro'yxatdan o'ting",
+      "no-bot-btn": "Telgramga o'tish"
+    },
+    "history": {
+      "header-title": "Xaridlar tarixi",
+      "not_given": "Xarid kutilmoqda",
+      "given": "Xarid olindi",
+      "canceled": "Xarid bekor qilindi"
+    },
+    "is_given": {
+      "true": "Xarid berilgan",
+      "false": "Xarid berilmadi"
+    }
+  },
+  "quiz": {
+    "question": "Savol:",
+    "send-btn": "Javob berish",
+    "finish": "Test o'tilgan!",
+    "assigned": "Bu savolga javob berilgan"
+  },
+  "theory": {
+    "read": "O'qib chiqildi",
+    "title": "Nazariya"
+  },
+  "exam-results": {
+    "exam-title": "Imtihon natijasi",
+    "exam-overall": "Umumiy natija",
+    "exam-data": "Imtihon natijalarni mavjud emas",
+    "result": "Natija",
+    "feedback": "Feedback"
+  },
+  "parent-part": {
+    "parent-part-title": "Uyga vazifalar statistikasi",
+    "parent-part-task": "Vazifa",
+    "parent-part-time": "Jo'natilgan vaqt",
+    "parent-part-score": "Ball",
+    "parent-part-student-activity": "Student statusi",
+    "instructions": {
+      "studActivity": "Bu yerda o'quvchining to'lov xolatini tekshirsa bo'ladi",
+      "attendance": "Bu yerda o'quvchining davomatini tekshirsa bo'ladi",
+      "hwStats": "Bu yerda uyga vazifaga qo'yilgan baxolarni tekshirsa bo'ladi",
+      "exam": "Bu yerda ekzamen baxolarini tekshirsa bo'ladi",
+      "next": "Keyingisi",
+      "done": "Tushunarli"
+    },
+    "learning-journey": {
+      "title": "O'rganish sayohati",
+      "starter": "Starter",
+      "programming": "Dasturlash",
+      "design": "Dizayn",
+      "report-message": "Student report hozircha mavjud emas",
+      "report-text": "O'quvchi haqida batafsil hisobot olish uchun ushbu QR kodni skanerlang",
+      "scan": "QR kodni skanerlang",
+      "report-btn-text": "Student report"
+    },
+    "payment-modal": {
+      "title": "Assalomu alaykum!"
+    }
+  },
+  "avatar": {
+    "title": "Rasm yuklash",
+    "file": "Rasmni yuklash uchun bosing",
+    "next": "Keyingisi",
+    "upload": "Yuklash"
+  },
+  "advertisement": {
+    "dialog": {
+      "header": "Kursga yozilish",
+      "description": "Kurslarga yozilishingiz uchun sizga operatorlarimiz aloqaga chiqadi",
+      "confirm": "Tasdiqlash"
+    },
+    "join": "Bizga qo'shiling"
+  },
+  "coins-history": {
+    "heading": "Coinlar tarixi",
+    "fake": "Coinlar faollashtirilmagan",
+    "no-coin": "Tanlangan sanada coinlar yo'q"
+  },
+  "blog": {
+    "comments": {
+      "today": "Bugun"
+    },
+    "send-comment": "Izoh qoldiring"
+  }
+}

@@ -1,0 +1,222 @@
+main.login {
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.login {
+  background-color: #fafafa;
+  overflow-x: hidden;
+  &__header {
+    padding: 15px 0;
+    background: #fff;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mars-logo {
+      img {
+        width: 128px;
+        height: 33px;
+        object-fit: contain;
+      }
+    }
+  }
+  &__body {
+    width: 100%;
+    height: calc(100vh - 69px);
+    display: flex;
+    align-items: center;
+    background-image: url("@/assets/login-bg-child.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      max-width: 500px;
+      background-color: #fff;
+      box-shadow: 0px 4px 60px 0px #0f05040d;
+      padding: 48px;
+      border-radius: 24px;
+      .demo-tabs > .el-tabs__content {
+        color: #6b778c;
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      .mars-logo img {
+        width: 112px;
+        height: 29.29px;
+      }
+      &-offer {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0.20000000298023224px;
+        color: #ef400f;
+        gap: 5px;
+        a {
+          color: inherit;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      &-offer_bottom {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        letter-spacing: 0.20000000298023224px;
+        color: #00a9f1;
+        gap: 5px;
+        a {
+          color: inherit;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .download {
+        color: #00a9f1;
+      }
+    }
+  }
+  .lang {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    span {
+      width: 24px;
+      height: 24px;
+    }
+    p {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.2px;
+      color: #424242;
+    }
+  }
+  .right-side {
+    width: 100%;
+    margin-left: 84px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    h2 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 120%;
+      color: #0e0d5d;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  &-tab {
+    max-height: none;
+  }
+}
+.toggleQr {
+  margin-bottom: 20px;
+  cursor: pointer;
+  &:hover {
+    color: #ef400f;
+  }
+}
+.toogleVideo {
+  margin-bottom: 20px;
+  display: none;
+}
+@media (max-width: 1030px) {
+  .toogleVideo {
+    display: block;
+    cursor: pointer;
+  }
+  .right-side {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .login__header {
+    &-wrapper {
+      max-width: 290px !important;
+      .mars-logo {
+        img {
+          width: 100px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .login {
+    .login__body {
+      padding-left: 0;
+      &-header {
+        .mars-logo {
+          img {
+            width: 80px;
+            height: auto;
+          }
+        }
+        &-offer {
+          font-size: 12px;
+          img {
+            width: 14px;
+          }
+        }
+      }
+      &-wrapper {
+        width: 370px;
+        margin: 0 auto;
+        h1 {
+          margin-top: 30px;
+          font-size: 24px;
+        }
+        .qrcode-wrapper {
+          width: 100%;
+        }
+        .el-tabs__item.is-top {
+          font-size: 14px;
+        }
+        .el-tabs__content {
+          width: 100%;
+        }
+        .auth-form {
+          &__btn {
+            padding: 12px 10px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

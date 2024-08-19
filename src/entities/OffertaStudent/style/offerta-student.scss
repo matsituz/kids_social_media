@@ -1,0 +1,66 @@
+.offerta-student {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 0.6px solid #eeeeee;
+  padding: 15px;
+  border-radius: 10px;
+
+  &__verifyBtn-in-signing {
+    position: absolute;
+    right: 15px;
+    top: 11%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    letter-spacing: 0.20000000298023224px;
+    color: #EF400F;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-left {
+    display: flex;
+    gap: 10px;
+    img {
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+      background: #f5f5f5;
+      padding: 5px;
+      border-radius: 50%;
+    }
+    &-details {
+      text-align: left;
+      h2 {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19.8px;
+        color: #0e0d5d;
+      }
+      p {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19.6px;
+        letter-spacing: 0.20000000298023224px;
+        color: #9e9e9e;
+      }
+    }
+  }
+  &-right {
+    p {
+      font-family: Urbanist;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 19.6px;
+      letter-spacing: 0.20000000298023224px;
+      color: #ef400f;
+    }
+  }
+}

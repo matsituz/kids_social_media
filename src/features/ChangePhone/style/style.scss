@@ -1,0 +1,81 @@
+.change-phone {
+  &__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 120%;
+      color: #0e0d5d;
+    }
+    button {
+      border: none;
+      background-color: transparent;
+      img {
+        width: 14px;
+      }
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0; border-bottom: 2px solid #eee;
+    &-wrapper {
+      .new-phone {
+        text-align: left;
+        padding: 5px 0;
+       &_btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        span {
+          font-size: 30px;
+          padding-top: 3px;
+        }
+        :hover {
+          cursor: pointer;
+        }
+       }
+      }
+     
+    }
+    &-input {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        color: #0e0d5d;
+      }
+      input {
+        padding: 5px 10px;
+        border: 1px solid #eee;
+        border-radius: 3px;
+        font-size: 16px;
+      }
+    }
+  }
+  &__footer {
+    margin-top: 10px;
+   button {
+    background-color:#FF805D;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+   }
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .no-phone {
+    margin: 0 auto;
+    font-weight: 700px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,33 @@
+.friend {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+  min-width: 340px;
+}
+.friend-left img {
+  background: #f5f5f5;
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.friend-right h1 {
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #0e0d5d;
+}
+.friend-right p {
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.200000003px;
+  color: #424242;
+}/*# sourceMappingURL=friend-card.css.map */

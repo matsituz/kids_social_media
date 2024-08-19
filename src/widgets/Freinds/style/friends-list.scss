@@ -1,0 +1,29 @@
+.friends {
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    img {
+      width: 34px;
+      height: 34px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.4px;
+      text-align: left;
+      color: #0e0d5d;
+    }
+  }
+  &__body {
+    height: calc(100vh - 220px);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .no-group {
+      justify-content: center;
+    }
+  }
+}

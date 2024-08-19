@@ -1,0 +1,27 @@
+.friends__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.friends__header img {
+  width: 34px;
+  height: 34px;
+}
+.friends__header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  color: #0e0d5d;
+}
+.friends__body {
+  height: calc(100vh - 220px);
+  overflow-y: auto;
+}
+.friends__body::-webkit-scrollbar {
+  display: none;
+}
+.friends__body .no-group {
+  justify-content: center;
+}/*# sourceMappingURL=friends-list.css.map */

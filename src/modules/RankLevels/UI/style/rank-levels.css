@@ -1,0 +1,95 @@
+.rank-levels {
+  border-radius: 10px;
+  background: #205cd0;
+  padding-top: 10px;
+  max-width: 730px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.rank-levels-title {
+  color: #fff;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.rank-levels-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.rank-levels-table tbody tr td {
+  height: 70px;
+  text-align: center;
+}
+.rank-levels-table tbody tr:nth-child(2n+1) {
+  background: rgba(217, 217, 217, 0.2);
+}
+.rank-levels-table .rank-image {
+  width: 80px;
+}
+.rank-levels-table .rank-title {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.rank-levels-table .rank-title i {
+  font-weight: bold;
+}
+.rank-levels-table .stars-cell {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  text-align: center;
+  width: 80px;
+}
+.rank-levels-table .rank-xp {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .rank-levels {
+    width: 600px;
+    margin: 30%;
+  }
+  .rank-levels-title {
+    font-size: 20px;
+  }
+  .rank-levels-table .rank-image {
+    width: 15px;
+  }
+  .rank-levels-table .rank-title {
+    font-size: 10px;
+  }
+  .rank-levels-table .stars-cell img {
+    width: 12px;
+  }
+  .rank-levels-table .rank-xp {
+    font-size: 8px;
+  }
+  .rank-levels-table .rank-xp:last-child {
+    padding-right: 3px;
+  }
+}
+@media (max-width: 440px) {
+  .rank-levels {
+    width: 360px;
+  }
+}
+@media (max-width: 320px) {
+  .rank-levels {
+    width: 300px;
+  }
+}/*# sourceMappingURL=rank-levels.css.map */

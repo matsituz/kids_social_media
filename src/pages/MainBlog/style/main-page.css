@@ -1,0 +1,136 @@
+main {
+  width: 100%;
+}
+
+.main__heading {
+  color: #0e0d5d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  position: relative;
+  padding-left: 46px;
+}
+.main__heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 34px;
+  height: 34px;
+}
+.main__blog-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 42px;
+  width: 100%;
+}
+.main__blog-section-left {
+  width: 380px;
+  max-width: 380px;
+}
+.main__blog-section-right-blog {
+  max-width: 874px;
+}
+.main__blog-section-right-blog-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 42px;
+}
+.main__blog-section-right__systems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-modules__options .el-scrollbar__view {
+  padding: 0 !important;
+}
+
+@media (max-width: 1300px) {
+  .main__blog-section-left {
+    width: 100%;
+  }
+  .main__blog-section-left .profile-info__user-faculty {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .main__blog-section-right {
+    max-width: 57%;
+  }
+  .main__blog-section-right__systems {
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+  }
+  .main__blog-section .book-tutor,
+  .main__blog-section .news-frame {
+    flex-shrink: 1;
+    max-width: 100%;
+    max-height: 98px;
+  }
+  .main__learning-section {
+    margin-top: 20px;
+  }
+  .main__learning-section-right {
+    width: 57%;
+  }
+}
+@media (max-width: 920px) {
+  .main__blog-section {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .main__blog-section-left {
+    max-width: 320px;
+  }
+  .main__blog-section-right {
+    max-width: 50%;
+  }
+  .main__learning-section-left {
+    max-width: 320px;
+  }
+  .main__learning-section-right {
+    max-width: 50%;
+  }
+  .main__heading {
+    font-size: 24px;
+    padding-left: 34px;
+  }
+  .main__heading::before {
+    top: 2px;
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .main__blog-section {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .main__blog-section-left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .main__blog-section-left .profile-section__games {
+    display: none;
+  }
+  .main__blog-section-right-blog {
+    max-width: 100%;
+  }
+  .main__blog-section-right-blog-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main__blog-section-right-blog .blog-post {
+    width: 100%;
+  }
+  .main__blog-section-right-blog .blog-post .post-image {
+    width: 100%;
+  }
+  .main__blog-section-right__systems {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}/*# sourceMappingURL=main-page.css.map */

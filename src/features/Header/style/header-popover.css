@@ -1,0 +1,72 @@
+.header-right__popover {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.header-right__popover-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header-right__popover-profile img {
+  background-color: #f5f5f5;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header-right__popover-wrapper {
+  padding: 15px 20px;
+}
+.header-right__popover__el {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  align-items: center;
+  cursor: pointer;
+}
+.header-right__popover__el p {
+  color: #ef400f;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.2px;
+}
+.header-right__popover__el img {
+  width: 22px;
+  height: 22px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.settings .el-dialog {
+  background: #fff !important;
+  border-radius: 10px !important;
+  width: 30% !important;
+}
+.settings .el-dialog .el-dialog__header {
+  display: none;
+}
+.settings .el-dialog .el-dialog__body {
+  padding: 15px !important;
+}
+@media (max-width: 1150px) {
+  .settings .el-dialog {
+    width: 50% !important;
+  }
+}
+@media (max-width: 500px) {
+  .settings .el-dialog {
+    width: 90% !important;
+  }
+}/*# sourceMappingURL=header-popover.css.map */

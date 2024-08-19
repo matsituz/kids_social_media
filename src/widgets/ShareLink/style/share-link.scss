@@ -1,0 +1,118 @@
+.share-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  gap: 10px;
+  max-width: 430px;
+  max-height: 98px;
+
+  &-custom-share-dialog{
+    width: 573px !important;
+    border-radius: 10px !important;
+    .el-dialog__header {
+      display: none;
+    }
+    .el-dialog__body {
+      padding: 24px;
+    }
+  }
+  
+  &-left {
+    display: flex;
+    gap: 16px;
+
+
+    &-img {
+      width: 68px;
+      height: 68px;
+      // border-radius: 18px;
+      cursor: pointer;
+    }
+
+    &-btn{
+      width: 93px;
+      height: 36px;
+      font-style: Urbanist;
+      font-size: 16px;
+      color: #00A9F1;
+      background: #EDFAFF;
+    }
+    &-titleshr {
+      color: #0e0d5d;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 120%;
+      
+    }
+
+    &-textshr {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.6px;
+      letter-spacing: 0.20000000298023224px;
+      color: #424242;
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .share-link-btnshr {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #b4e4ff;
+      padding: 7px 10px;
+      border-radius: 6px;
+      font-family: Urbanist;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 22.4px;
+      letter-spacing: 0.2px;
+      color: #4a1eea;
+      border: none;
+      cursor: pointer;
+
+      .share-link-btn-icon-share {
+        width: 16px; /* установите желаемую ширину */
+        height: 16px; /* установите желаемую высоту */
+      }
+    }
+  }
+}
+@media (max-width:400px) {
+  .share-link{
+    width: 100%; 
+  }
+  .share-link-left-titleshr{
+    font-size: 16px;
+
+  }
+  .share-link-left-img{
+    width: 60px;
+    height: 60px;
+  }
+}
+// @media (max-width: 500px) {
+//   .share-link-custom-share-dialog {
+//     width: 300px !important;
+//   }
+// }
+// @media (max-width: 1024px) {
+//   .share-link{
+//     max-width: 547.19px !important;
+//     width: 100%;
+//   } 
+  
+// }

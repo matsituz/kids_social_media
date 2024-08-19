@@ -1,0 +1,36 @@
+.friend {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 12px;
+  min-width: 340px;
+  &-left {
+    img {
+      background: #f5f5f5;
+      border-radius: 12px;
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+  }
+  &-right {
+    h1 {
+      font-family: Urbanist;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21.6px;
+      color: #0e0d5d;
+    }
+    p {
+      font-family: Urbanist;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.6px;
+      letter-spacing: 0.20000000298023224px;
+      color: #424242;
+    }
+  }
+}

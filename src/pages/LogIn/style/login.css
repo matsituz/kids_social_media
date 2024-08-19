@@ -1,0 +1,214 @@
+main.login {
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.login {
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+.login__header {
+  padding: 15px 0;
+  background: #fff;
+}
+.login__header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__header .mars-logo img {
+  width: 128px;
+  height: 33px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.login__body {
+  width: 100%;
+  height: calc(100vh - 69px);
+  display: flex;
+  align-items: center;
+  background-image: url("@/assets/login-bg-child.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+}
+.login__body-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0px 4px 60px 0px rgba(15, 5, 4, 0.0509803922);
+  padding: 48px;
+  border-radius: 24px;
+}
+.login__body-wrapper .demo-tabs > .el-tabs__content {
+  color: #6b778c;
+  font-size: 32px;
+  font-weight: 600;
+}
+.login__body-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.login__body-header .mars-logo img {
+  width: 112px;
+  height: 29.29px;
+}
+.login__body-header-offer {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.200000003px;
+  color: #ef400f;
+  gap: 5px;
+}
+.login__body-header-offer a {
+  color: inherit;
+}
+.login__body-header-offer:hover {
+  cursor: pointer;
+}
+.login__body-header-offer_bottom {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.200000003px;
+  color: #00a9f1;
+  gap: 5px;
+}
+.login__body-header-offer_bottom a {
+  color: inherit;
+}
+.login__body-header-offer_bottom:hover {
+  cursor: pointer;
+}
+.login__body-header .download {
+  color: #00a9f1;
+}
+.login .lang {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.login .lang span {
+  width: 24px;
+  height: 24px;
+}
+.login .lang p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #424242;
+}
+.login .right-side {
+  width: 100%;
+  margin-left: 84px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+.login .right-side h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  color: #0e0d5d;
+}
+.login .right-side img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.login .right-side iframe {
+  width: 100%;
+  height: 500px;
+}
+.login-tab {
+  max-height: none;
+}
+
+.toggleQr {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.toggleQr:hover {
+  color: #ef400f;
+}
+
+.toogleVideo {
+  margin-bottom: 20px;
+  display: none;
+}
+
+@media (max-width: 1030px) {
+  .toogleVideo {
+    display: block;
+    cursor: pointer;
+  }
+  .right-side {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .login__header-wrapper {
+    max-width: 290px !important;
+  }
+  .login__header-wrapper .mars-logo img {
+    width: 100px;
+    height: auto;
+  }
+  .login .login__body {
+    padding-left: 0;
+  }
+  .login .login__body-header .mars-logo img {
+    width: 80px;
+    height: auto;
+  }
+  .login .login__body-header-offer {
+    font-size: 12px;
+  }
+  .login .login__body-header-offer img {
+    width: 14px;
+  }
+  .login .login__body-wrapper {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .login .login__body-wrapper h1 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .login .login__body-wrapper .qrcode-wrapper {
+    width: 100%;
+  }
+  .login .login__body-wrapper .el-tabs__item.is-top {
+    font-size: 14px;
+  }
+  .login .login__body-wrapper .el-tabs__content {
+    width: 100%;
+  }
+  .login .login__body-wrapper .auth-form__btn {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=login.css.map */

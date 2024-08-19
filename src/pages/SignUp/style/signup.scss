@@ -1,0 +1,51 @@
+.signup {
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  &__header {
+    background: #fff;
+    padding: 15px 60px;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .mars-logo {
+        img {
+          width: 146px;
+          height: auto;
+        }
+      }
+      .lang {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        p {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 23.58px;
+          letter-spacing: 0.2px;
+          color: #424242;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__body {
+    flex-grow: 1; /* Allow .signup__body to grow and fill the remaining space */
+    background: url("@/assets/auth-bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 92.4vh;
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+  }
+}
+
+@media (max-width: 500px) {
+  .signup__body {
+    padding-left: 0;
+  }
+}

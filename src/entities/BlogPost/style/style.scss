@@ -1,0 +1,284 @@
+.blog-post {
+  background: #fff;
+  width: 500px;
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 20px;
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      background-color: #f5f5f5;
+      border-radius: 12px;
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      color: #0e0d5d;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.20000000298023224px;
+      color: #424242;
+    }
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      &-right {
+        img:hover {
+          cursor: pointer;
+        }
+      }
+      .delete_btn {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        background: #fff;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px #0000001a;
+        padding: 7px 12px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #EA1E61;
+        cursor: pointer;
+      }
+    }
+  }
+  &__body {
+    .post-text {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0.20000000298023224px;
+      margin: 15px 0;
+    }
+    .post-image {
+      border-radius: 8px;
+      object-fit: cover;
+      width: 100%;
+      height: 390px;
+    }
+    .post-reactions {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      margin-top: 16px;
+      button {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 12px 16px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.20000000298023224px;
+        color: #9e9e9e;
+        cursor: pointer;
+      }
+      .liked {
+        color: #ea1e61;
+      }
+      .comment-number-icons {
+        position: relative;
+        img {
+          position: absolute;
+          top: 60%;
+          transform: translateY(-60%);
+        }
+        .first-icon {
+          left: -60px;
+        }
+        .second-icon {
+          left: -45px;
+        }
+        .third-icon {
+          left: -30px;
+        }
+      }
+    }
+    .show-comment {
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 16px;
+      button {
+        margin-bottom: 16px;
+      }
+      .comment-btn {
+        color: #0e0d5d;
+      }
+    }
+    .post-comments {
+      padding: 0 15px;
+      max-height: 280px;
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+      }
+      &-left {
+        display: flex;
+        gap: 5px;
+        width: 315px
+        img {
+          background: #f5f5f5;
+          padding: 5px;
+          border-radius: 100%;
+          width: 34px;
+          height: 34px;
+        }
+        h1 {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          color: #0e0d5d;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0.20000000298023224px;
+          color: #424242;
+          width: 260px;
+          word-wrap: break-word;
+        }
+      }
+      &-right {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.20000000298023224px;
+        color: #00a9f1;
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        &:hover {
+          cursor: pointer;
+        }
+        &-del{
+          position: relative;
+          &-btn{
+            border-radius: 6px;
+  
+            padding: 8px 12px;
+            color: #EA1E61;
+            background: white;
+            font-size: 14px;
+            line-height: 19.6px;
+            letter-spacing: 0.2px;
+            font-weight: 600;
+            border: none;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            position: absolute;
+            bottom: -29px;
+            right: -11px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1019607843);
+            cursor: pointer;
+          }
+
+         
+        }
+      }
+      .my-comment {
+        color: #ff805d;
+      }
+    }
+  }
+  &__footer {
+    display: flex;
+    gap: 12px;
+    position: relative;
+    margin-top: 20px;
+    input {
+      flex: 1;
+      border-radius: 10px;
+      padding: 12px;
+      background-color: #fafafa;
+      border: 0;
+      &::placeholder {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.20000000298023224px;
+        color: #bdbdbd;
+      }
+    }
+    img {
+      position: absolute;
+      right: 112px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    button {
+      border-radius: 10px;
+      padding: 12px 24px;
+      background-color: #eee;
+      border: 0;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0.20000000298023224px;
+      color: #9e9e9e;
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+    .comment-input {
+      color: #424242;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: 0.20000000298023224px;
+    }
+    .comment-btn {
+      background: linear-gradient(286.17deg, #e33d0e 0%, #ff7d58 100%);
+      color: #fff;
+    }
+  }
+  .comment-btn:hover {
+    cursor: pointer;
+  }
+  .image-preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    .img {
+      width: 500px;
+      height: 500px;
+      object-fit: fill;
+    }
+  }
+
+  .image-preview-modal button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

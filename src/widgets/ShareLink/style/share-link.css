@@ -1,0 +1,95 @@
+@charset "UTF-8";
+.share-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  gap: 10px;
+  max-width: 430px;
+  max-height: 98px;
+}
+.share-link-custom-share-dialog {
+  width: 573px !important;
+  border-radius: 10px !important;
+}
+.share-link-custom-share-dialog .el-dialog__header {
+  display: none;
+}
+.share-link-custom-share-dialog .el-dialog__body {
+  padding: 24px;
+}
+.share-link-left {
+  display: flex;
+  gap: 16px;
+}
+.share-link-left-img {
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
+}
+.share-link-left-btn {
+  width: 93px;
+  height: 36px;
+  font-style: Urbanist;
+  font-size: 16px;
+  color: #00A9F1;
+  background: #EDFAFF;
+}
+.share-link-left-titleshr {
+  color: #0e0d5d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.share-link-left-textshr {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.200000003px;
+  color: #424242;
+}
+.share-link-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share-link-right .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.share-link-right .share-link-btnshr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #b4e4ff;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #4a1eea;
+  border: none;
+  cursor: pointer;
+}
+.share-link-right .share-link-btnshr .share-link-btn-icon-share {
+  width: 16px; /* установите желаемую ширину */
+  height: 16px; /* установите желаемую высоту */
+}
+
+@media (max-width: 400px) {
+  .share-link {
+    width: 100%;
+  }
+  .share-link-left-titleshr {
+    font-size: 16px;
+  }
+  .share-link-left-img {
+    width: 60px;
+    height: 60px;
+  }
+}/*# sourceMappingURL=share-link.css.map */

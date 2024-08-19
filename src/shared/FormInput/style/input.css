@@ -1,0 +1,40 @@
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper .show-pass {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  cursor: pointer;
+}
+.input-wrapper .inputPhone {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  letter-spacing: 0.200000003px;
+  color: #212121;
+}
+.input-wrapper .verifyBtn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.4px;
+  letter-spacing: 0.200000003px;
+  color: #EF400F;
+}
+.input-wrapper .verifyBtn:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=input.css.map */

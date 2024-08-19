@@ -1,0 +1,75 @@
+.coin-history {
+  border-bottom: 1px solid #eeeeee;
+  padding: 16px;
+}
+.coin-history td {
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  letter-spacing: 0.200000003px;
+  color: #424242;
+  padding: 12px 0;
+}
+.coin-history .name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.8px;
+  text-align: left;
+  padding-left: 16px;
+}
+.coin-history .name p {
+  border-radius: 6px;
+  padding: 4px 6px;
+  background: #fffbe6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.200000003px;
+  color: #616161;
+}
+.coin-history .name p span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.200000003px;
+  color: #ea1e61;
+}
+.coin-history .coin {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.200000003px;
+  color: #009689;
+  padding-right: 16px;
+}
+.coin-history .minus {
+  color: #EA1E61;
+}
+.coin-history .no-credit {
+  color: #D8D8D8;
+}
+.coin-history .is-fake {
+  opacity: 0.3;
+}
+
+@media (max-width: 500px) {
+  .coin-history td {
+    font-size: 12px;
+  }
+  .coin-history .name {
+    font-size: 12px;
+  }
+  .coin-history .name p {
+    font-size: 10px;
+    padding: 0;
+  }
+  .coin-history .coin {
+    font-size: 14px;
+    gap: 3px;
+  }
+  .coin-history .coin img {
+    width: 16px;
+  }
+}/*# sourceMappingURL=coin-history.css.map */

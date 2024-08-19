@@ -1,0 +1,77 @@
+.change-phone__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.change-phone__heading h1 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #0e0d5d;
+}
+.change-phone__heading button {
+  border: none;
+  background-color: transparent;
+}
+.change-phone__heading button img {
+  width: 14px;
+}
+.change-phone__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  border-bottom: 2px solid #eee;
+}
+.change-phone__body-wrapper .new-phone {
+  text-align: left;
+  padding: 5px 0;
+}
+.change-phone__body-wrapper .new-phone_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.change-phone__body-wrapper .new-phone_btn span {
+  font-size: 30px;
+  padding-top: 3px;
+}
+.change-phone__body-wrapper .new-phone_btn :hover {
+  cursor: pointer;
+}
+.change-phone__body-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.change-phone__body-input label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #0e0d5d;
+}
+.change-phone__body-input input {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.change-phone__footer {
+  margin-top: 10px;
+}
+.change-phone__footer button {
+  background-color: #FF805D;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+.change-phone button:hover {
+  cursor: pointer;
+}
+.change-phone .no-phone {
+  margin: 0 auto;
+  font-weight: 700px;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */

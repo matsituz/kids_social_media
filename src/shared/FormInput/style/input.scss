@@ -1,0 +1,43 @@
+.input {
+  &-wrapper {
+    position: relative;
+    .show-pass {
+      background: transparent;
+      border: none;
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      cursor: pointer;
+    }
+    .inputPhone {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 15px;
+      font-family: Urbanist;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25.2px;
+      letter-spacing: 0.20000000298023224px;
+      color: #212121;
+    }
+    .verifyBtn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      font-family: Urbanist;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 14.4px;
+      letter-spacing: 0.20000000298023224px;
+      color: #EF400F;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,169 @@
+.create-post-modal {
+  width: 500px !important;
+  border-radius: 16px !important;
+  header {
+    display: none;
+  }
+  .el-dialog__body {
+    padding: 15px !important;
+  }
+  .create-post {
+    &__header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      img {
+        background-color: #fafafa;
+        padding: 5px;
+        border-radius: 12px;
+        width: 48px;
+        height: 48px;
+      }
+      h1 {
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        color: #0e0d5d;
+      }
+      p {
+        font-family: Urbanist;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19.6px;
+        letter-spacing: 0.20000000298023224px;
+        color: #424242;
+      }
+    }
+    &__body {
+      margin: 15px 0;
+      textarea {
+        resize: none;
+        box-shadow: none !important;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 25.2px;
+        letter-spacing: 0.20000000298023224px;
+        color: #424242;
+        &::placeholder {
+          font-family: Urbanist;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 25.2px;
+          letter-spacing: 0.20000000298023224px;
+          color: #e0e0e0;
+        }
+      }
+      .image-preview {
+        position: relative;
+        .times-btn {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          button {
+            border: 0;
+            background: transparent;
+          }
+        }
+        img {
+          width: 470px;
+          height: 390px;
+          object-fit: cover;
+          border-radius: 8px;
+        }
+      }
+      .upload-wrapper-box {
+        margin: 10px 0;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: right;
+        .el-upload {
+          &-dragger {
+            background-color: transparent;
+            border: none;
+          }
+          &__text {
+            color: #bdbdbd;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 19.6px */
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+    &__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        border: none;
+      }
+      .upload-image {
+        background-color: transparent;
+      }
+      .send {
+        background: linear-gradient(286.17deg, #e33d0e 0%, #ff7d58 100%);
+        padding: 12px 24px;
+        border-radius: 10px;
+        font-family: Urbanist;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23.58px;
+        letter-spacing: 0.20000000298023224px;
+        color: #fff;
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+    }
+    .el-upload-dragger{
+      border: none !important;
+    }
+    .el-upload-list {
+      display: none !important;
+    }
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+.cropper-wrapper {
+  height: 300px;
+  position: relative;
+  margin: 10px 0;
+  .times-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 123;
+    button {
+      background-color: transparent;
+      background: none;
+      color: #f5f5f5;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .vue-advanced-cropper {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+
+    .vue-line-wrapper {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .create-post-modal {
+    width: 90% !important;
+  }
+}

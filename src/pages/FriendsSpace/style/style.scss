@@ -1,0 +1,137 @@
+main {
+  width: 100%;
+}
+
+.main {
+  &__heading {
+    color: #0e0d5d;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    position: relative;
+    padding-left: 46px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 34px;
+      height: 34px;
+    }
+  }
+  .friends-space {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &-left {
+      width: 380px;
+      max-width: 380px;
+    }
+    &-right {
+      max-width: 874px;
+      width: 100%;
+      &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        h1 {
+          font-family: Urbanist;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 38.4px;
+          color: #0E0D5D;
+        }
+      }
+      .blog-feed-section {
+        width: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .friends-space {
+    &-left {
+      width: 100%;
+      .profile-info__user-faculty {
+        margin: 0 auto;
+        max-width: 500px;
+      }
+    }
+    &-right {
+      max-width: 57%;
+    }
+    &-right__systems {
+      // column-gap: 10px;
+      flex-direction: column;
+      row-gap: 12px;
+      width: 100%;
+    }
+    .book-tutor,
+    .news-frame {
+      flex-shrink: 1;
+      max-width: 100%;
+      max-height: 98px;
+    }
+  }
+  .main__learning-section {
+    margin-top: 20px;
+    &-right {
+      width: 57%;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .friends-space {
+    column-gap: 20px;
+    &-left {
+      max-width: 320px;
+    }
+    &-right {
+      max-width: 50%;
+    }
+  }
+  .main__learning-section {
+    &-left {
+      max-width: 320px;
+    }
+    &-right {
+      max-width: 50%;
+    }
+  }
+  .main__heading {
+    font-size: 24px;
+    padding-left: 34px;
+    &::before {
+      top: 2px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    .friends-space {
+      flex-direction: column;
+      row-gap: 20px;
+      &-left {
+        width: 100%;
+        max-width: 100%;
+      }
+      &-right {
+        max-width: 100%;
+      }
+      .create-post-section, .blog-feed-section {
+        width: 380px !important;
+        .blog-post {
+          width: 380px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.signup-tab {
+  background: #fff;
+  padding: 48px;
+  border-radius: 24px;
+  box-shadow: 0px 4px 60px 0px #0f05040d;
+  &__header {
+    img {
+      width: 112px;
+      height: auto;
+    }
+  }
+
+  .registered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      max-width: 385px;
+    }
+    .to-login {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22.4px;
+      letter-spacing: 0.20000000298023224px;
+      color: #EF400F;
+      display: flex;
+      align-items: center;
+      margin-top: 96px;
+    }
+  }
+  .error {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.20000000298023224px;
+    color: red;
+    padding-bottom: 5px;
+  }
+  .already-created {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 500px) {
+    .signup-tab {
+        width: 370px;
+        margin: 0 auto;
+    }
+}

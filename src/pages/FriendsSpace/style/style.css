@@ -1,0 +1,128 @@
+main {
+  width: 100%;
+}
+
+.main__heading {
+  color: #0e0d5d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  position: relative;
+  padding-left: 46px;
+}
+.main__heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 34px;
+  height: 34px;
+}
+.main .friends-space {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.main .friends-space-left {
+  width: 380px;
+  max-width: 380px;
+}
+.main .friends-space-right {
+  max-width: 874px;
+  width: 100%;
+}
+.main .friends-space-right__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.main .friends-space-right__header h1 {
+  font-family: Urbanist;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: #0E0D5D;
+}
+.main .friends-space-right .blog-feed-section {
+  width: 500px;
+}
+
+@media (max-width: 1300px) {
+  .friends-space-left {
+    width: 100%;
+  }
+  .friends-space-left .profile-info__user-faculty {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .friends-space-right {
+    max-width: 57%;
+  }
+  .friends-space-right__systems {
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+  }
+  .friends-space .book-tutor,
+  .friends-space .news-frame {
+    flex-shrink: 1;
+    max-width: 100%;
+    max-height: 98px;
+  }
+  .main__learning-section {
+    margin-top: 20px;
+  }
+  .main__learning-section-right {
+    width: 57%;
+  }
+}
+@media (max-width: 920px) {
+  .friends-space {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .friends-space-left {
+    max-width: 320px;
+  }
+  .friends-space-right {
+    max-width: 50%;
+  }
+  .main__learning-section-left {
+    max-width: 320px;
+  }
+  .main__learning-section-right {
+    max-width: 50%;
+  }
+  .main__heading {
+    font-size: 24px;
+    padding-left: 34px;
+  }
+  .main__heading::before {
+    top: 2px;
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .main .friends-space {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .main .friends-space-left {
+    width: 100%;
+    max-width: 100%;
+  }
+  .main .friends-space-right {
+    max-width: 100%;
+  }
+  .main .friends-space .create-post-section, .main .friends-space .blog-feed-section {
+    width: 380px !important;
+  }
+  .main .friends-space .create-post-section .blog-post, .main .friends-space .blog-feed-section .blog-post {
+    width: 380px;
+  }
+}/*# sourceMappingURL=style.css.map */

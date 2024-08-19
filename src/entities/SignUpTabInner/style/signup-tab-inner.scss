@@ -1,0 +1,57 @@
+.signup-tab-inner {
+  text-align: right;
+  button {
+    margin-top: 16px;
+  }
+  &_link{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22.4px;
+      letter-spacing: 0.2px;
+      align-items: center;
+      text-align: center;
+      color: #212121;
+      margin-top: 20px;
+      
+      a{
+        color: #EF400F;
+        cursor: pointer;
+        
+      }
+  }
+  .desc {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.20000000298023224px;
+    color: #1a96f0;
+    padding-bottom: 5px;
+    span {
+      color: #ea1e61;
+    }
+    
+  }
+  .code {
+    input {
+      padding: 0 15px !important;
+    }
+    .resend {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22.4px;
+      letter-spacing: 0.20000000298023224px;
+      color: #ef400f;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .error-border {
+    border: 0.6px solid red;
+  }
+}

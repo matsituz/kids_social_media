@@ -1,0 +1,62 @@
+.change-lang-modal.el-dialog {
+  max-width: 340px;
+  padding: 40px 32px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+.change-lang-modal.el-dialog header {
+  display: none;
+}
+.change-lang-modal.el-dialog .el-dialog__body {
+  padding: 0;
+}
+
+.change-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.change-lang__icon {
+  width: 141px;
+  height: 141px;
+  border-radius: 100%;
+  background-color: #0e0d5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.change-lang__heading {
+  margin-bottom: 16px;
+  color: #212121;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}
+.change-lang__footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: 100%;
+}
+.change-lang__footer-btn {
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 18px 16px;
+  background: #ffeee9;
+  border: none;
+  width: 100%;
+  color: #ef400f;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.change-lang__footer-btn--active {
+  background-color: #ef400f;
+  color: #fff;
+}/*# sourceMappingURL=change-lang.css.map */
